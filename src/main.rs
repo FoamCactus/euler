@@ -13,6 +13,7 @@ mod problems {
     pub mod problem12;
     pub mod problem13;
     pub mod problem14;
+    pub mod problem16;
     pub mod problem17;
     pub mod problem20;
     pub mod problem23;
@@ -58,6 +59,7 @@ fn main() {
         (12, Box::new(problems::problem12::problem12 as fn() -> ())),
         (13, Box::new(problems::problem13::problem13 as fn() -> ())),
         (14, Box::new(problems::problem14::problem14 as fn() -> ())),
+        (16, Box::new(problems::problem16::problem16 as fn() -> ())),
         (17, Box::new(problems::problem17::problem17 as fn() -> ())),
         (20, Box::new(problems::problem20::problem20 as fn() -> ())),
         (23, Box::new(problems::problem23::problem23 as fn() -> ())),
